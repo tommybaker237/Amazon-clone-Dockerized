@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('idriss237-docker')
+    DOCKERHUB_CREDENTIALS = credentials('idriss-docker')
     APP_NAME = "idriss237/amazo-app"
     }
     stages { 
